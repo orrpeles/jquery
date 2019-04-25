@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--<script src="jquery.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>My first jQuery Lesson</title>
+  </head>
+  <body>
+    <ul>
+      <li> dog </li>
+      <li> cat </li>
+      <li> elephant </li>
+      <li> bear </li>
+    </ul>
+    <script type="text/javascript">
+    $('li').click(function() { // we take any <li> element and apply css on it via user clicking //
+      $(this).css('background-color', 'purple'); //try ('font-weignt', 'bold')
+    });
+    </script>
+  </body>
+</html>

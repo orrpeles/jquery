@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--<script src="jquery.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>My first jQuery Lesson</title>
+  </head>
+  <body>
+    <ul>
+      <li> dog </li>
+      <li> cat </li>
+      <li> elephant </li>
+      <li> bear </li>
+    </ul>
+    <script type="text/javascript">
+    $('li').hover (
+        function() {
+          $(this).css('color', 'red');
+          $(this).css('font-size', '120%');
+        },
+        function() {
+          $(this).css('color', 'black');
+          $(this).css('font-size', '100%');
+        });
+    </script>
+  </body>
+</html>
