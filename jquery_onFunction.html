@@ -19,14 +19,17 @@
 	  $(this).css('color', 'red');
           $(this).css('font-size', '120%');
     },
-    	mouseleave function() {
+        mouseleave: function() {
           $(this).css('color', 'black');
-	  $(this).css('font-size', '100%');
+          $(this).css('font-size', '100%');
     },
-	click: function() {
-    	  $(this).css('background-color', 'yellow');
+	      click: function() {
+          $(this).css('background-color', 'yellow');
+    },
+        mousemove: function() {
+          $(this).css('background-color', 'white'); //ref: https://api.jquery.com/category/events/mouse-events/
     }
 });
-</script>
-	</body>
-	</html>
+    </script>
+  </body>
+</html>
